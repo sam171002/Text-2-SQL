@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pandas
+python-dotenv
+streamlit
+sentence-transformers
+scikit-learn
+google-genai
+requests
+pydantic
+aiofiles
+python-multipart
+pytest
+tabulate
+plotly

@@ -1,0 +1,240 @@
+{
+    "cancer_data": [
+        {
+            "name": "patientID",
+            "type": "BIGINT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "encounterID",
+            "type": "BIGINT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "diagnosisCodeDescription",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "Cancer_Diagnosis_Category",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "Specialty",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "Encounter_Type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "encounterAdmitDateTime",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "encounterDischargeDateTime",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "Facility_Code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ageAtEncounter",
+            "type": "BIGINT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ageGroup",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "LOShours",
+            "type": "FLOAT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "readmission",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "YQ_YearQuarter",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "gender",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "nationality",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "national",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        }
+    ],
+    "social_data": [
+        {
+            "name": "Unnamed_0",
+            "type": "BIGINT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ProductModelName",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ProductCategory",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ProductPrice",
+            "type": "FLOAT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "RetailerName",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "RetailerZip",
+            "type": "FLOAT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "RetailerCity",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "RetailerState",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ProductOnSale",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ManufacturerName",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ManufacturerRebate",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "UserID",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "UserAge",
+            "type": "FLOAT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "UserGender",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "UserOccupation",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ReviewRating",
+            "type": "FLOAT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ReviewDate",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "ReviewText",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "sentiment",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "problem",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "about",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        },
+        {
+            "name": "keywords",
+            "type": "TEXT",
+            "nullable": true,
+            "default": "None"
+        }
+    ]
+}
